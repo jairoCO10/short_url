@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  short_url_service:
+    build: .
+    ports:
+      - "8000:8000"
+   
+
