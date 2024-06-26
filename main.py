@@ -4,7 +4,7 @@ from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from app import models, crud
-from app.database import  Connection, Connect
+from app.Settings.database import  Connection, Connect
 import uvicorn
 app = FastAPI()
 

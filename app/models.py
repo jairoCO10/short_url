@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String
-from app.database import Connection
+from app.Settings.database import Connection
 
 class URL(Connection.Base):
     __tablename__ = "urls"

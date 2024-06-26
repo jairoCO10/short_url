@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  short_url_service:
+  short_url:
     build: .
     ports:
       - "8000:8000"
